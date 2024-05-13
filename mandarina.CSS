@@ -1,0 +1,60 @@
+HEADER { 
+    background:  #FFC300 ; 
+    width: 100%; 
+    position: fixed; 
+    z-index: 100;
+  }
+  
+  NAV{
+  FLOAT:LEFT;
+  }
+  
+  NAV UL {
+  LIST-STYLE: NONE; 
+  OVERFLOW: HIDDEN; 
+  }
+  
+  NAV UL LI {
+  FLOAT:LEFT; 
+  FONT-FAMILY:cursive;
+  FONT-SIZE: 16PX;
+  }
+  
+  NAV UL LI A{
+  DISPLAY: BLOCK; 
+  PADDING: 30px; 
+  COLOR: #000000;
+  TEXT-DECORATION: underline wavy red;
+  }
+  
+  NAV UL LI:HOVER { 
+  BACKGROUND:  #FF5733 ; 
+  }
+
+
+h1 {FONT-FAMILY: "Courier New", monospace; TEXT-ALIGN: CENTER; font-size: 200%;}
+
+body {background: url("https://img.freepik.com/vector-premium/fondo-transparente-dibujos-acuarela-mandarinas-naranjas-maduras-hojas-verdes_643926-504.jpg");   
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ p {font-family:Arial, sans-serif; font-size: 180%;}
+ .tiposlist li{
+  font-family: Arial, sans-serif;
+  font-size: 200%;
+ }
+ .mandrainalist li{
+  font-size: 100%;
+  list-style-type: none;
+ }
+ table{
+  background-color: #FF5733;
+  width: 90%;
+  height: 150%;
+  text-align: center;
+ }
+.ptr{
+  font-size: 100%;
+}
